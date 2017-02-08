@@ -45,8 +45,8 @@ public class PrintArrayBorder {
 		}
 	}
 	
-	private static void JumpLine(int linhas){
-		for(int i = 0 ; i < linhas; i++)
+	private static void JumpLine(int line){
+		for(int i = 0 ; i < line; i++)
 			System.out.println("");
 	}
 	
