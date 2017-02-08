@@ -8,13 +8,13 @@ public class PrintArrayBorder {
 		lastLine = array.length - 1;
 		lastColumn = array.length - 1;
 		
-		ImprimirComBorda();
+		PrintWithBorder();
 		JumpLine(5);
-		ImprimirComLetra("X");
+		PrintWithLetter("X");
 	}
 	
 	
-	private static void ImprimirComBorda(){
+	private static void PrintWithBorder(){
 		for (int i = 0; i< array.length; i++){
 			for (int j = 0; j < array.length; j++){
 			
@@ -30,7 +30,7 @@ public class PrintArrayBorder {
 		}
 	}
 	
-	private static void ImprimirComLetra(String letter){
+	private static void PrintWithLetter(String letter){
 		for (int i = 0; i< array.length; i++){
 			for (int j = 0; j < array.length; j++){
 				if(i != firstLine && i !=  lastLine){
@@ -51,4 +51,3 @@ public class PrintArrayBorder {
 	}
 	
 }
-
